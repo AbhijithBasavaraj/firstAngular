@@ -7,8 +7,8 @@ import { map } from 'rxjs/operators';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent implements  OnInit {
-  title = 'app';
+export class AppComponent implements  OnInit {}
+  /*title = 'app';
   restItems: any;
   restItemsUrl = 'https://spanner.googleapis.com/v1/projects/iron-potion-771/instances/us-e4-iron-potion-ods-tmp/databases/tmp_bkg_db/sessions/AJSwhAQOx-JRxH2JYX4sk2KCbUKXsjR8buW8czAb_CsrO4pfBNHga1FhOZvxiA:executeSql';
 
@@ -47,7 +47,7 @@ export class AppComponent implements  OnInit {
   }
 }
 
-
+*/
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
