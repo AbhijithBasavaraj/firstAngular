@@ -9,8 +9,6 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
-import { RestApiComponent } from './rest-api/rest-api.component';
-import { RestApiComponent1 } from './rest-api';
 @NgModule({
   imports: [
     HttpClientModule,
@@ -18,8 +16,7 @@ import { RestApiComponent1 } from './rest-api';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },
-      { path: 'restcall', component: RestApiComponent },
+      { path: 'products/:productId', component: ProductDetailsComponent }
     ])
   ],
   declarations: [
@@ -27,8 +24,7 @@ import { RestApiComponent1 } from './rest-api';
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ProductDetailsComponent,
-    RestApiComponent
+    ProductDetailsComponent
   ],
   bootstrap: [ AppComponent ]
 })
